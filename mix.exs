@@ -32,7 +32,7 @@ defmodule Sippet.Proxy.Mixfile do
   end
 
   defp deps do
-    [{:sippet, "~> 0.5.7"},
+    [{:sippet, "~> 0.5.8"},
 
      # Docs dependencies
      {:ex_doc, "~> 0.14", only: :dev, runtime: false},
