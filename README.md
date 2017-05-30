@@ -9,7 +9,7 @@ by adding `sippet_proxy` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:sippet_proxy, "~> 0.1.0"}]
+  [{:sippet_proxy, "~> 0.1.1"}]
 end
 ```
 
