@@ -57,7 +57,7 @@ defmodule Sippet.Proxy.Core do
       nil ->
         # on the event of an incoming request with a non null server key,
         # start a new proxy controller.
-        case Proxy.Controller.Supervisor.start_child(request, server_key) do
+        case Controller.Supervisor.start_child(request, server_key) do
           {:ok, pid} ->
             pid |> Controller.receive_request(request, server_key)
 
